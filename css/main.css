@@ -127,3 +127,30 @@ h1, h2, h3, h4, h5 {
     padding: 1rem;
     background: #ffffff;
 }
+.circle{
+  border-style:solid;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+.combo{
+  text-align: center;
+}
+.boldCircle{
+  border-width: thick;
+  background-color: red;
+}
+.boldNumber{
+  font-weight: bold;
+}
+#allCircles{
+
+  padding-top: 3em;
+  padding-left: 32.5%;
+  padding-right: 2.5%;
+  width: 65%;
+  display: flex;
+  justify-content:space-around;
+  margin: auto;
+  display: inline-flex;
+}
