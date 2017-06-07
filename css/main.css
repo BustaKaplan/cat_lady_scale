@@ -143,6 +143,14 @@ h1, h2, h3, h4, h5 {
 .boldNumber{
   font-weight: bold;
 }
+
+.hover-display{
+  display: none;
+  height: 3rem;
+  position: absolute;
+  bottom: 7%;
+
+}
 #allCircles{
 
   padding-top: 3em;

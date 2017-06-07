@@ -128,6 +128,12 @@ console.log(this.status);
         $('option[selected]').removeAttr('selected');
         $("option[value=" + this.value + "]").attr('selected', true);
     });
+  $('.combo').mouseover(function(){
+    $(this).closest('.combo').find('.hover-display').css("display", "block");
+  });
+  $('.combo').mouseleave(function(){
+    $(this).closest('.combo').find('.hover-display').css("display", 'none');
+  });
 
     // initial setup
     fillBehaviorDropDown(); // fill drop down
